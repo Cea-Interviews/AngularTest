@@ -148,3 +148,103 @@
 00:40:27 (17359) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/javascript-mutator
 00:40:27 (17359) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/jest-runner
 00:40:27 (17359) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/core/src/reporters/index.js
+10:23:47 (28272) INFO ConfigReader Using stryker.conf.js in the current working directory.
+10:23:47 (28272) DEBUG BroadcastReporter Broadcasting to reporters ["clear-text","progress","html"]
+10:23:47 (28272) DEBUG ConfigReader Loading config stryker.conf.js
+10:23:47 (28272) DEBUG ConfigReader Loaded config: {
+  "mutate": [
+    "src/**/*.js"
+  ],
+  "logLevel": "debug",
+  "fileLogLevel": "trace",
+  "timeoutMS": 5000,
+  "timeoutFactor": 1.5,
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "reporters": [
+    "clear-text",
+    "progress",
+    "html"
+  ],
+  "coverageAnalysis": "off",
+  "testRunner": "jest",
+  "mutator": "javascript",
+  "transpilers": [],
+  "maxConcurrentTestRunners": null,
+  "symlinkNodeModules": false,
+  "thresholds": {
+    "break": null,
+    "high": 80,
+    "low": 60
+  },
+  "allowConsoleColors": true,
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "mutationScore"
+  },
+  "tempDirName": ".stryker-tmp",
+  "htmlReporter": {
+    "baseDir": "coverage/mutation/html"
+  },
+  "packageManager": "npm",
+  "configFile": "stryker.conf.js"
+}
+10:23:47 (28272) DEBUG PluginLoader Loading @stryker-mutator/* from /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator
+10:23:47 (28272) DEBUG PluginLoader Loading plugin "/Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/html-reporter" (matched with expression @stryker-mutator/*)
+10:23:47 (28272) DEBUG PluginLoader Loading plugin "/Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/javascript-mutator" (matched with expression @stryker-mutator/*)
+10:23:47 (28272) DEBUG PluginLoader Loading plugin "/Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/jest-runner" (matched with expression @stryker-mutator/*)
+10:23:47 (28272) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/html-reporter
+10:23:47 (28272) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/javascript-mutator
+10:23:47 (28272) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/jest-runner
+10:23:47 (28272) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/core/src/reporters/index.js
+10:24:38 (28281) INFO ConfigReader Using stryker.conf.js in the current working directory.
+10:24:38 (28281) DEBUG BroadcastReporter Broadcasting to reporters ["clear-text","progress","html"]
+10:24:38 (28281) DEBUG ConfigReader Loading config stryker.conf.js
+10:24:38 (28281) DEBUG ConfigReader Loaded config: {
+  "mutate": [
+    "src/**/**.js"
+  ],
+  "logLevel": "debug",
+  "fileLogLevel": "trace",
+  "timeoutMS": 5000,
+  "timeoutFactor": 1.5,
+  "plugins": [
+    "@stryker-mutator/*"
+  ],
+  "reporters": [
+    "clear-text",
+    "progress",
+    "html"
+  ],
+  "coverageAnalysis": "off",
+  "testRunner": "jest",
+  "mutator": "javascript",
+  "transpilers": [],
+  "maxConcurrentTestRunners": null,
+  "symlinkNodeModules": false,
+  "thresholds": {
+    "break": null,
+    "high": 80,
+    "low": 60
+  },
+  "allowConsoleColors": true,
+  "dashboard": {
+    "baseUrl": "https://dashboard.stryker-mutator.io/api/reports",
+    "reportType": "mutationScore"
+  },
+  "tempDirName": ".stryker-tmp",
+  "htmlReporter": {
+    "baseDir": "coverage/mutation/html"
+  },
+  "packageManager": "npm",
+  "configFile": "stryker.conf.js"
+}
+10:24:38 (28281) DEBUG PluginLoader Loading @stryker-mutator/* from /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator
+10:24:38 (28281) DEBUG PluginLoader Loading plugin "/Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/html-reporter" (matched with expression @stryker-mutator/*)
+10:24:38 (28281) DEBUG PluginLoader Loading plugin "/Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/javascript-mutator" (matched with expression @stryker-mutator/*)
+10:24:38 (28281) DEBUG PluginLoader Loading plugin "/Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/jest-runner" (matched with expression @stryker-mutator/*)
+10:24:38 (28281) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/html-reporter
+10:24:38 (28281) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/javascript-mutator
+10:24:38 (28281) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/jest-runner
+10:24:38 (28281) DEBUG PluginLoader Loading plugins /Users/lambda/Desktop/Interviews/testing/se_js_hut_practice/node_modules/@stryker-mutator/core/src/reporters/index.js
