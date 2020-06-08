@@ -1,6 +1,6 @@
 module.exports = function(config) {
     config.set({
-        mutate: ['src/**/**.js'],
+        mutate: ['src/**/*.js'],
         mutator: 'javascript',
         htmlReporter: {
             baseDir: 'coverage/mutation/html'
