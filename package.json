@@ -9,7 +9,7 @@
   "scripts": {
     "lint": "eslint spec",
     "lint:fix": "eslint --fix spec",
-    "test": "jest",
+    "test": "jest ",
     "test:cover": "jest --coverage",
     "test:mutation": "stryker run"
   },

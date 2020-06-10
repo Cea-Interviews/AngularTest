@@ -23,7 +23,6 @@ describe('hard.js', function () {
             };
         };
         global.manageQuickViewDone = function () {
-            // console.log('here')
         };
      
     });
@@ -206,7 +205,28 @@ describe('hard.js', function () {
            
             });
             describe('unMarkQuickViewAsDefault', function () {
-              
+                it('should quickviewID to be null if scope.views has no property default',function(){
+                    scope.views = [{
+                        id: 'something',
+                        default:'default',
+                    
+                    }];
+                    FREnv.$rootScope = {
+                        channelToRender: {
+                            id: 1,
+                            channelType:'channel'
+                        },
+                    };
+                    window.getShareByUserTrack=jest.fn().mockReturnValue({
+                        ss: 'ss1',
+                        ssi: 'ssi1',
+                    });
+                    FREnv.channelPrefix='ch';
+                    window.usageTrackingCall = jest.fn();
+                    scope.unMarkQuickViewAsDefault();
+                    expect(usageTrackingCall).toHaveBeenCalledWith('unmarkdefaultquickview', 
+                     'something','stream', null, null ,'ss1', 'quickview','channel', 'ch1',null, null, 'ssi1');
+                });
                 it('should quickviewID to be null if scope.views has no property default',function(){
                     scope.views = [{
                         id: 'something',

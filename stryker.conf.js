@@ -8,7 +8,6 @@ module.exports = function(config) {
         packageManager: 'npm',
         reporters: ['clear-text', 'progress', 'html'],
         testRunner: 'jest',
-        coverageAnalysis: 'off',
-        symlinkNodeModules: false
+        coverageAnalysis: 'off'
     });
 };
